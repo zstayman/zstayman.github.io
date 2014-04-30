@@ -383,6 +383,23 @@
 				background-color: #1f232b;
 			}
 
+		.button-style4
+		{
+			background: #272A33 url('images/overlay.png');
+			color: #B0B7CC;
+			border: 1px solid #B0B7CC;
+		}
+
+			.button-style4:hover
+			{
+				background-color: #B0B7CC;
+			}
+
+			.button-style4:active
+			{
+				background-color: #1f232b;
+			}
+
 	ul.style1
 	{
 	}
