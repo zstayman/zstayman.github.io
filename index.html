@@ -18,6 +18,7 @@
 	<script src="js/skel.min.js"></script>
 	<script src="js/skel-panels.min.js"></script>
 	<script src="js/parallax.js"></script>
+
 	<noscript>
 		<link rel="stylesheet" href="css/skel-noscript.css" />
 		<link rel="stylesheet" href="css/style.css" />
@@ -42,10 +43,10 @@
 						</div>
 						<!-- /Logo -->
 						<div id="go">
-							<h4><a href="#about">ABOUT ME</a></h4>
-							<h4><a href="#projects">PROJECTS</a></h4>
-							<h4><a href="#skills">TECHNOLOGIES</a></h4>
-							<h4><a href="#contact">CONTACT ME</a></h4>
+							<h4><a href="#about" class="link">ABOUT ME</a></h4>
+							<h4><a href="#projects" class="link">PROJECTS</a></h4>
+							<h4><a href="#skills" class="link">TECHNOLOGIES</a></h4>
+							<h4><a href="#contact" class="link">CONTACT ME</a></h4>
 							<h4><a href="resume.pdf" target="_blank">RESUME</a></h4>
 						</div>
 					</div>
@@ -59,14 +60,14 @@
 
 	<!-- Intro Wrapper -->
 	<div id="intro-wrapper" class="wrapper wrapper-style1 second">
-		<div class="title">About Me</div>
+		<div class="title" id="about">About Me</div>
 		<div class="container">
 			<div class="row">
 				<div class="12u">
 
 					<!-- Intro -->
 					<section id="intro">
-						<p class="style1"><a name="about"></a>Who Am I?</p>
+						<p class="style1">Who Am I?</p>
 						<p class="style2">
 							I'm a Full Stack Developer,<br> Political Junkie, Thinker, Dreamer, <br>and Workaholic
 						</p>
@@ -87,7 +88,7 @@
 
 	<!-- Highlights Wrapper -->
 	<div class="wrapper wrapper-style3 third">
-		<div class="title">My Projects</div>
+		<div class="title" id="projects">My Projects</div>
 		<div class="container">
 			<div class="row">
 				<div class="12u">
@@ -96,7 +97,7 @@
 					<div id="highlights">
 						<div>
 							<div class="row">
-								<div class="4u"><a name="projects"></a>
+								<div class="4u">
 									<section class="highlight highlight-one">
 										<a target="_blank" href="http://infocongress.herokuapp.com" class="image image-full"><img src="images/capitol-dome.jpg" alt="" /></a>
 										<h3><a target="_blank" href="http://infocongress.herokuapp.com">InfoCongress</a></h3>
@@ -164,7 +165,7 @@
 
 	<!-- Main Wrapper -->
 	<div class="wrapper wrapper-style2 third">
-		<div class="title">Technologies</div>
+		<div class="title" id="skills">Technologies</div>
 		<div class="container">
 			<div class="row">
 				<div class="12u">
@@ -184,7 +185,7 @@
 							<div class="feature-list">
 								<div>
 									<div class="row">
-										<div class="6u"><a name="skills"></a>
+										<div class="6u">
 											<section>
 												<h3 class="fa fa-laptop">Ruby</h3>
 												<p>I have a high level of proficency with Ruby, including gems, testing using Rspec and Capybara, and integrating other aspects of my stack.</p>
@@ -258,7 +259,7 @@
 
 	<!-- Footer Wrapper -->
 	<div id="footer-wrapper" class="wrapper fourth">
-		<div class="title">Contact Me</div>
+		<div class="title" id="contact">Contact Me</div>
 		<div class="container">
 			<div class="row">
 				<div class="12u">
@@ -353,4 +354,5 @@
 	<!-- /Footer Wrapper -->
 
 </body>
+<script src="js/scroll.js"></script>
 </html>
