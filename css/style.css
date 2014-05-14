@@ -1227,3 +1227,25 @@
 				{
 					color: #fff;
 				}
+
+/*********************************************************************************/
+/* Nav 			                                                                     */
+/*********************************************************************************/
+
+#go {
+	float: left;
+	width: 15%;
+	margin-top: 5%;
+	background: #CACACA;
+	text-align: center;
+}
+
+#go h4 {
+	margin-bottom: 1px;
+	border-bottom: 1px solid gray;
+}
+
+
+#go h4 #last {
+	border-bottom: none;
+}
