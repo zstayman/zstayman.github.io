@@ -1244,17 +1244,17 @@
 	float: left;
 	width: 15%;
 	margin-top: 5%;
-	background: #CACACA;
 	text-align: center;
 	z-index: 100;
 }
 
 #go h4 {
-	margin-bottom: 1px;
-	border-bottom: 1px solid gray;
+	border-bottom: 1px solid black;
+	background: #CACACA;
 }
 
 
-#go h4 #last {
-	border-bottom: none;
+#go h4:hover {
+	transition: background .25s linear;
+	background: rgba(202,202,202,0);
 }
