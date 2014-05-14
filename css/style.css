@@ -34,6 +34,10 @@
 		color: #484d55;
 	}
 
+	h1 {
+		z-index: -10;
+	}
+
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a
 	{
 		color: inherit;
@@ -1128,6 +1132,7 @@
 
 	#logo
 	{
+		width: 50%;
 	}
 
 		#logo h1
@@ -1135,6 +1140,7 @@
 			font-weight: 900;
 			text-transform: uppercase;
 			color: black;
+
 		}
 
 		#logo .byline
@@ -1142,6 +1148,7 @@
 			color: black;
 			color: rgba(0,0,0,.75);
 			text-transform: uppercase;
+			width: 50%;
 		}
 
 		#logo h1 a {
@@ -1238,6 +1245,7 @@
 	margin-top: 5%;
 	background: #CACACA;
 	text-align: center;
+	z-index: 100;
 }
 
 #go h4 {

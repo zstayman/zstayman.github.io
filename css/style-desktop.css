@@ -320,6 +320,8 @@
 	.homepage #logo
 	{
 		margin-top: -1em;
+		width: 50%;
+		margin-left: 55%;
 	}
 
 	#logo h1
