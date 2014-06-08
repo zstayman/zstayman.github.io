@@ -10,7 +10,7 @@ function scrollToSection(id){
 
 // This is how I find the relevant element to scroll on based on the menu item I click.
 
-$("#go .link").click(function() {
+$(".link").click(function() {
   var linkID = $(this).attr('href');
   debugger;
   scrollToSection(linkID);
