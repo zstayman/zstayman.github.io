@@ -40,13 +40,13 @@
 			letter-spacing: 0.075em;
 			line-height: 1.25em;
 		}
-		
+
 		header.style1 .byline
 		{
 			display: block;
 			margin: 0;
 		}
-		
+
 	hr
 	{
 		margin: 1em 0 1em 0;
@@ -55,7 +55,7 @@
 	form
 	{
 	}
-	
+
 		form input.text,
 		form select,
 		form textarea
@@ -70,7 +70,7 @@
 		/* Adjust this to change the minimum height of the image */
 		min-height: 10em;
 	}
-	
+
 		.image-featured img
 		{
 			position: absolute;
@@ -79,7 +79,7 @@
 			width: auto;
 
 			/* Adjust this to change the horizontal placement of the image */
-			left: -50%;			
+			left: -50%;
 		}
 
 	.button
@@ -102,7 +102,7 @@
 		{
 			margin: 1em 0 0 0;
 		}
-	
+
 		.actions li
 		{
 			margin: 15px 0 0 0;
@@ -123,7 +123,7 @@
 				border-top: 0;
 				padding-top: 0;
 			}
-		
+
 		.feature-list h3
 		{
 			position: relative;
@@ -141,7 +141,7 @@
 				line-height: 32px;
 				font-size: 16px;
 			}
-	
+
 		.feature-list p
 		{
 			margin: 0 0 0 48px;
@@ -150,7 +150,7 @@
 	.is-post-excerpt
 	{
 	}
-	
+
 		.is-post-excerpt .image-left
 		{
 			position: relative;
@@ -158,7 +158,7 @@
 			width: 25%;
 			margin: 0;
 		}
-		
+
 		.is-post-excerpt h3,
 		.is-post-excerpt p
 		{
@@ -250,7 +250,7 @@
 			border-top: solid 1px rgba(255,255,255,0.05);
 			margin: 0 15px 0 15px;
 		}
-	
+
 		#navPanel .link:first-child
 		{
 			border-top: 0;
@@ -283,7 +283,7 @@
 			margin-left: -9em;
 			padding-top: 0.5em;
 		}
-		
+
 			.wrapper .title:before,
 			.wrapper .title:after
 			{
@@ -331,7 +331,7 @@
 			font-size: 1.5em;
 			letter-spacing: 0.2em;
 		}
-		
+
 		#logo .byline
 		{
 			margin: 1.25em 0 0 0;
@@ -339,7 +339,7 @@
 			letter-spacing: 0.2em;
 			font-size: 0.9em;
 		}
-	
+
 /*********************************************************************************/
 /* Nav                                                                           */
 /*********************************************************************************/
@@ -348,7 +348,7 @@
 	{
 		display: none;
 	}
-	
+
 /*********************************************************************************/
 /* Intro                                                                         */
 /*********************************************************************************/
@@ -359,7 +359,7 @@
 		padding: 1em 2em 1em 2em !important;
 		margin: 0 auto;
 	}
-	
+
 		#intro .style2
 		{
 			font-size: 1.5em;
@@ -406,7 +406,7 @@
 	#footer
 	{
 	}
-	
+
 		#footer hr
 		{
 			display: none;
@@ -420,7 +420,7 @@
 	{
 		padding: 2em 0 0 0;
 	}
-	
+
 		#copyright span
 		{
 			padding: 1.5em 4em 1.5em 4em;
@@ -429,4 +429,8 @@
 
 		#highlights .highlight {
 			height: 500px;
+		}
+
+		#go {
+			display: none;
 		}
